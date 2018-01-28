@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>vchambers</title>
+         <style>
+            body {
+                background: rgb(196, 225, 255);
+                color: rgb(255, 219, 254);
+                padding: 7px;
+                font-family: Verdana;
+            }
+            header {
+                font-size: 1em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 50px;
+                margin: auto;
+                max-length: 50px; 
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(255, 219, 254);
+                margin: 0 auto; 
+                margin-left: 40px;
+                margin-right: 40px;
+                margin bottom: 10px;
+                display: flex;
+                padding-left: 30px;
+                padding-right: 30px;
+                border: 10px rgb(49, 89, 43);
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(121, 170, 124);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: img src=pictures/promlady.jpg;
+            }
+            nav li {
+                display: inline-block;
+                padding:  0 15px;
+            }
+            nav a {
+                text-decoration: none;
+                color: rgb(121, 170, 124);
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(121, 170, 124);
+                display: flex;
+                margin: 40px;
+                margin-top: 20px;
+                border: 10px rgb(49, 89, 43);
+                border: 10px rgb(49, 89, 43); 
+            }
+            .sidebar {
+                padding: 30px;
+            }
+            .sidebar img {
+                width: 700px;
+            }
+            .content {
+                flex: 1;
+                padding: 30px;
+                padding-right: 50px;
+            }
+            .interests header {
+                font-size: .8em;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+        <div id="all contents">
+            <nav>
+                <header>a mediocre website</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="pictures/mountainsandI.jpg">
+                </div>
+                
+                <div class="content">
+                    <header> vanessa chambers </header>
+                    <p>BFHS student</p>
+                    <section class="interests">
+                        <header> interests </header>
+                        <ul>
+                            <li> skateboarding </li>
+                            <li> chinese </li>
+                            <li> games, not art </li>
+                            <li> rejection letter hauls </li>
+                            <li> video editing</li>
+                            <li> nutcracker suite </li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
