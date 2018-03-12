@@ -22,7 +22,8 @@
                     
                 case 'grace':
                 case 'kennedi':
-                case 'bossbaby':
+               // case 'bossbaby':
+                case 'emojimeme':
                     collectable.scale.x = collectable.scale.y = 0.9;
                     break;
                 

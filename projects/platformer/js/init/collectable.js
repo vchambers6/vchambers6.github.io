@@ -10,7 +10,8 @@
         steve: {assetKey: 'steve', points: 30},
         grace: {assetKey: 'grace', points: 40},
         kennedi: {assetKey: 'kennedi', points: 50},
-        bossbaby: {assetKey: 'bossbaby', points: 1000000}
+        bossbaby: {assetKey: 'bossbaby', points: 1000},
+        emojimeme: {assetKey: 'emojimeme', points: -100000}
     };
     
     /**
@@ -37,7 +38,9 @@
         
         // example: 
         collectable.create(type.steve, 200, 170, 6, 0.7);
-        collectable.create(type.bossbaby, 500, 400 );
+        collectable.create(type.bossbaby, 500, 50, 20, .6);
+        collectable.create(type.emojimeme, 20, 530, -.3, .01);
+       
         
         
         
