@@ -39,7 +39,7 @@
         // example: 
         collectable.create(type.steve, 200, 170, 6, 0.7);
         collectable.create(type.bossbaby, 500, 50, 20, .6);
-        collectable.create(type.emojimeme, 20, 530, -.3, .01);
+        collectable.create(type.emojimeme, 20, 520);
        
         
         
